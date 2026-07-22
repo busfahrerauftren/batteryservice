@@ -6,8 +6,8 @@ from dots_infrastructure.CalculationServiceHelperFunctions import get_single_par
 from dots_infrastructure.Logger import LOGGER
 from esdl import EnergySystem
 
-from ExampleBatteryService.example_battery_service_base import ExampleBatteryServiceBase
-from ExampleBatteryService.example_battery_service_dataclasses import MaxChargeAndDischargeOutput
+from ExampleCalculationService.example_battery_service_base import ExampleBatteryServiceBase
+from ExampleCalculationService.example_battery_service_dataclasses import MaxChargeAndDischargeOutput
 
 class ExampleBatteryService(ExampleBatteryServiceBase):
 
